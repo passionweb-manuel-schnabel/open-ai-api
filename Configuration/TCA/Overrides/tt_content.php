@@ -2,6 +2,6 @@
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     'OpenAiApi',
-    'ExampleOutput',
+    'PromptOutput',
     'Example prompt request with OpenAI API'
 );

@@ -35,7 +35,7 @@ class AiController extends ActionController
     public function sendPromptAction(): ResponseInterface
     {
         try {
-            $prompt = $_POST['tx_openaiapi_example']['prompt'];
+            $prompt = $_POST['tx_openaiapi_promptoutput']['prompt'];
             $jsonContent = [
                 "model" => $this->extConf['openAiModel'],
                 "temperature" => (float)$this->extConf['openAiTemperature'],

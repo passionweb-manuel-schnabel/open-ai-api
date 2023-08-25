@@ -3,10 +3,10 @@
 	<file source-language="en" datatype="plaintext" original="EXT:open_ai_api/Resources/Private/Language/backend.xlf" date="2022-10-12T13:12:24Z" product-name="open_ai_api">
 		<header/>
 		<body>
-		    <trans-unit id="plugin_openaiapi_example.name" resname="plugin_openaiapi_example.name">
+		    <trans-unit id="plugin_openaiapi_promptoutput.name" resname="plugin_openaiapi_promptoutput.name">
                 <source>Send OpenAI prompt</source>
             </trans-unit>
-            <trans-unit id="plugin_openaiapi_example.description" resname="plugin_openaiapi_example.description">
+            <trans-unit id="plugin_openaiapi_promptoutput.description" resname="plugin_openaiapi_promptoutput.description">
                 <source>Send a prompt and display the response from the OpenAI API</source>
             </trans-unit>
 		</body>
