@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+
+<f:section name="content">
+    <div class="container">
+        <h1>Answer from OpenAI API:</h1>
+        <hr />
+        <f:if condition="{error}">
+            <f:then>
+                <p>
+                    Something went wrong! The following error occured: <br /><br />
+                    {error}
+                </p>
+            </f:then>
+            <f:else>
+                <p>
+                    <f:format.html>{aiResponseText}</f:format.html>
+                </p>
+            </f:else>
+        </f:if>
+    </div>
+</f:section>
+</html>

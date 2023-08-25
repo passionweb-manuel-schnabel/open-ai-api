@@ -1,0 +1,17 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+
+<f:section name="content">
+    <div class="container">
+        <h1>Send OpenAI prompt</h1>
+        <hr />
+        <f:form controller="Ai" action="sendPrompt" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="prompt">Enter prompt:</label>
+                <f:form.textarea class="form-control w-100" name="prompt" required="required" />
+            </div>
+            <f:form.submit name="submit" value="Send prompt" class="btn btn-primary"/>
+        </f:form>
+    </div>
+</f:section>
+</html>

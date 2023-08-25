@@ -1,0 +1,15 @@
+# cat=API Key; type=string; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiApiKey
+openAiApiKey =
+
+# cat=basic settings; type=string; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiModel
+openAiModel = gpt-3.5-turbo
+# cat=basic settings; type=double+; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiTemperature
+openAiTemperature = 0.5
+# cat=basic settings; type=int+; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiMaxTokens
+openAiMaxTokens = 275
+# cat=basic settings; type=int+; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiTopP
+openAiTopP = 1
+# cat=basic settings; type=double; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiFrequencyPenalty
+openAiFrequencyPenalty = 0.8
+# cat=basic settings; type=double; label=LLL:EXT:open_ai_api/Resources/Private/Language/ext_conf.xlf:openAiPresencePenalty
+openAiPresencePenalty = 0
